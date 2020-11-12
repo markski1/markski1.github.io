@@ -1,0 +1,151 @@
+/* Reglas de página */
+body{
+    background-color:#BFBFBF;
+    color:black;
+}
+
+/* Textos */
+.titulo{
+    top:0px;
+    left:0px;
+    right:0px;
+    width:100%;
+    position:absolute;
+    background-color:#276868;
+}
+.titulo-in{
+    width: 118px;
+    margin: 20px;
+}
+h1,h2{
+    padding-left:20px;
+    color:white;
+    background-color:#276868;
+    padding:20px;
+}
+#link{
+    color:black;
+    text-decoration:none;
+    font-weight:300;
+}
+#link:hover{
+    color:white;
+    background-color:#276868;
+}
+.textoGris {
+    color: #BFBFBF;
+}
+
+/* Divisores y contenedores */
+.titulocontainer{
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pagina{
+    margin-top:140px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.cosas{
+    float:left;
+    width:70%;
+}
+.incosas{
+    margin-left:10px;
+}
+.sidebar{
+    margin-top:20px;
+    float:right;
+    width:30%;
+}
+.sidebar2{
+    width:80%;
+    padding:20px;
+    background-color:#276868;
+    color:white;
+    text-align:right;
+}
+.footer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Elementos de entrada */
+.entrada{
+    transition: width .5s;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+.entrada:focus{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+.entrada-steam{
+    transition: width .5s;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+}
+.entrada-steam:focus{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+.boton{
+    background-color: #276868;
+    border-width: 0px;
+    color: white;
+    padding: 10px;
+    transition: background-color .25s;
+    transition: color .25s;
+}
+.boton:hover{
+    background-color: white;
+    color: black;
+}
+.boton:active{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+#boton{
+    padding: 2px;
+    font-family: tahoma;
+    color: #BFBFBF;
+    text-decoration: none;
+}
+#boton:hover{
+    color: #276868;
+    background-color: #BFBFBF;
+}
+
+/* Miscelaneo */
+hr{
+    border:0;
+    height:0;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.tabla-normal {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #276868;
+    color: #BFBFBF;
+    padding: 30px;
+}
+
+tr:nth-child(odd){
+    background-color: #1C4949;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
